@@ -8,6 +8,7 @@ e = np.ones((5, 5))
 f = np.identity(5)
 g = np.linspace(0, 10, 6).reshape(3, 2)
 g1=np.random.random((3,4))*100
+g2=np.random.randint(1,20,16).reshape(4,4)
 ###################################################
 
 # Attribute of numpy array
@@ -76,3 +77,4 @@ print(np.exp(i))'''
 
 
 
+print(g2)
